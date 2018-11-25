@@ -97,7 +97,7 @@ class FavoriteHeroController: UIViewController {
         heroDescriptionLabel.text = favoriteHero?.heroDescription
         navigationItem.rightBarButtonItem?.isEnabled = false
         heroImageView.image = #imageLiteral(resourceName: "marvel")
-        heroNameLabel.text = "You don't have a favorite hero..."
+        heroNameLabel.text = "No Favorite Hero..."
         dividerView.isHidden = true
     }
     
